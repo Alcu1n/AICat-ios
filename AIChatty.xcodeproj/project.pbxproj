@@ -76,12 +76,12 @@
 		8E2E5BAF29CCC60700EE0072 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8E2EF25C29F04D7500E25C9A /* ImageRenderer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageRenderer+Extension.swift"; sourceTree = "<group>"; };
 		8E3DA87C29DC6E6800327A2A /* LoadingIndocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndocator.swift; sourceTree = "<group>"; };
-		8E401DCD29DCB66200E2F403 /* AICat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AICat.entitlements; sourceTree = "<group>"; };
+		8E401DCD29DCB66200E2F403 /* AIChatty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AIChatty.entitlements; sourceTree = "<group>"; };
 		8E401DCF29DE59A000E2F403 /* SystemUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemUtil.swift; sourceTree = "<group>"; };
 		8E401DD429E7171100E2F403 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
 		8E401DD629EA9E9A00E2F403 /* SKProduct+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKProduct+Extension.swift"; sourceTree = "<group>"; };
 		8E401DD829EAC9F900E2F403 /* ToastVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastVIew.swift; sourceTree = "<group>"; };
-		8E64872329C6E1B00029E14F /* AICat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AICat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E64872329C6E1B00029E14F /* AIChatty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIChatty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E64872629C6E1B00029E14F /* AICatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICatApp.swift; sourceTree = "<group>"; };
 		8E64872829C6E1B00029E14F /* CompactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactView.swift; sourceTree = "<group>"; };
 		8E64872A29C6E1B10029E14F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 		8E64871A29C6E1B00029E14F = {
 			isa = PBXGroup;
 			children = (
-				8E64872529C6E1B00029E14F /* AICat */,
+				8E64872529C6E1B00029E14F /* AIChatty */,
 				8E64872429C6E1B00029E14F /* Products */,
 				8E64874829C759970029E14F /* Frameworks */,
 			);
@@ -173,15 +173,15 @@
 		8E64872429C6E1B00029E14F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E64872329C6E1B00029E14F /* AICat.app */,
+				8E64872329C6E1B00029E14F /* AIChatty.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E64872529C6E1B00029E14F /* AICat */ = {
+		8E64872529C6E1B00029E14F /* AIChatty */ = {
 			isa = PBXGroup;
 			children = (
-				8E401DCD29DCB66200E2F403 /* AICat.entitlements */,
+				8E401DCD29DCB66200E2F403 /* AIChatty.entitlements */,
 				8EECA00D29C83BDB0021A6A1 /* Info.plist */,
 				8E401DCE29DE596D00E2F403 /* Utils */,
 				8EE9264829D49E65005E6FB7 /* ViewModel */,
@@ -198,7 +198,7 @@
 				8E64872C29C6E1B10029E14F /* Preview Content */,
 				18DE294B29F1635E0091C284 /* Credential.swift */,
 			);
-			path = AICat;
+			path = AIChatty;
 			sourceTree = "<group>";
 		};
 		8E64872C29C6E1B10029E14F /* Preview Content */ = {
@@ -293,9 +293,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E64872229C6E1B00029E14F /* AICat */ = {
+		8E64872229C6E1B00029E14F /* AIChatty */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E64873129C6E1B10029E14F /* Build configuration list for PBXNativeTarget "AICat" */;
+			buildConfigurationList = 8E64873129C6E1B10029E14F /* Build configuration list for PBXNativeTarget "AIChatty" */;
 			buildPhases = (
 				8E64871F29C6E1B00029E14F /* Sources */,
 				8E64872029C6E1B00029E14F /* Frameworks */,
@@ -305,7 +305,7 @@
 			);
 			dependencies = (
 			);
-			name = AICat;
+			name = AIChatty;
 			packageProductDependencies = (
 				8E64873729C6FBD90029E14F /* Alamofire */,
 				8E64873E29C70FD00029E14F /* Blackbird */,
@@ -316,7 +316,7 @@
 				8E2EF25829F02E4900E25C9A /* ApphudSDK */,
 			);
 			productName = AICat;
-			productReference = 8E64872329C6E1B00029E14F /* AICat.app */;
+			productReference = 8E64872329C6E1B00029E14F /* AIChatty.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -334,7 +334,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8E64871E29C6E1B00029E14F /* Build configuration list for PBXProject "AICat" */;
+			buildConfigurationList = 8E64871E29C6E1B00029E14F /* Build configuration list for PBXProject "AIChatty" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -360,7 +360,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E64872229C6E1B00029E14F /* AICat */,
+				8E64872229C6E1B00029E14F /* AIChatty */,
 			);
 		};
 /* End PBXProject section */
@@ -564,16 +564,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
-				CODE_SIGN_ENTITLEMENTS = AICat/AICat.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AIChatty/AIChatty.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 38;
-				DEVELOPMENT_ASSET_PATHS = "\"AICat/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AIChatty/Preview Content\"";
 				DEVELOPMENT_TEAM = RZD9M68FZ9;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AICat/Info.plist;
+				INFOPLIST_FILE = AIChatty/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AIChatty;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need your permission to save images to the photo album.";
@@ -607,16 +607,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
-				CODE_SIGN_ENTITLEMENTS = AICat/AICat.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AIChatty/AIChatty.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 38;
-				DEVELOPMENT_ASSET_PATHS = "\"AICat/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AIChatty/Preview Content\"";
 				DEVELOPMENT_TEAM = RZD9M68FZ9;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AICat/Info.plist;
+				INFOPLIST_FILE = AIChatty/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AIChatty;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need your permission to save images to the photo album.";
@@ -647,7 +647,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E64871E29C6E1B00029E14F /* Build configuration list for PBXProject "AICat" */ = {
+		8E64871E29C6E1B00029E14F /* Build configuration list for PBXProject "AIChatty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E64872F29C6E1B10029E14F /* Debug */,
@@ -656,7 +656,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E64873129C6E1B10029E14F /* Build configuration list for PBXNativeTarget "AICat" */ = {
+		8E64873129C6E1B10029E14F /* Build configuration list for PBXNativeTarget "AIChatty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E64873229C6E1B10029E14F /* Debug */,

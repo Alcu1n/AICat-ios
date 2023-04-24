@@ -1,7 +1,6 @@
 //
 //  ConversationListView.swift
 //  AICat
-//
 //  Created by Lei Pan on 2023/3/20.
 //
 

@@ -1,8 +1,6 @@
 //
 //  ImageRenderer+Extension.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/4/20.
+//  AIChatty
 //
 
 import SwiftUI

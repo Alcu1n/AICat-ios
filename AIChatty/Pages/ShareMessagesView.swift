@@ -1,15 +1,12 @@
 //
 //  ShareMessagesView.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/4/16.
 //
 
 import SwiftUI
 
 struct ShareMessagesView: View {
 
-    var title: String = "AICat Main"
+    var title: String = "ChatGPT"
     var prompt: String = "Your ultimate AI assistant"
     var messages: [ChatMessage] = []
 
@@ -50,7 +47,7 @@ struct ShareMessagesView: View {
                     .cornerRadius(6)
                     .padding(.leading)
                 VStack(alignment: .leading) {
-                    Text("AICat")
+                    Text("AIChatty")
                         .font(.manrope(size: 16, weight: .bold))
                         .foregroundColor(.primary.opacity(0.7))
                     Text("Your ultimate AI assistant")

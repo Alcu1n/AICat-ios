@@ -1,8 +1,6 @@
 //
 //  AICatStateViewModel.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/3/31.
+//  AIChatty
 //
 
 import SwiftUI
@@ -17,7 +15,7 @@ import AppKit
 #endif
 
 fileprivate let dbPath = "\(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0])/db.sqlite"
-fileprivate let mainConversation = Conversation(id: "AICat.Conversation.Main", title: "AICat Main", prompt: "")
+fileprivate let mainConversation = Conversation(id: "AICat.Conversation.Main", title: "ChatGPT", prompt: "")
 
 @MainActor class AICatStateViewModel: NSObject, ObservableObject {
     var db = try! Blackbird.Database(path: dbPath, options: .debugPrintEveryQuery)
@@ -41,9 +39,9 @@ fileprivate let mainConversation = Conversation(id: "AICat.Conversation.Main", t
 
     var freeMessageCount: Int64 {
         #if DEBUG
-        return 5
+        return 1000
         #else
-        return 20
+        return 1000
         #endif
     }
 

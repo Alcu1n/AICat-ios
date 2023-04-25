@@ -1,8 +1,6 @@
 //
 //  SettingsView.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/3/21.
+//  AIChatty
 //
 
 import SwiftUI
@@ -189,7 +187,7 @@ struct SettingsView: View {
                 }.tint(.primaryColor)
                 Section("Social") {
                     Link(destination: URL(string: "https://t.me/aicatevents")!){
-                        Label("AICat News", image: "telegram_icon")
+                        Label("AIChatty News", image: "telegram_icon")
                             .labelStyle(.titleAndIcon)
                     }
                     Link(destination: URL(string: "https://github.com/Panl")!){
@@ -205,7 +203,7 @@ struct SettingsView: View {
                     header: Text("More App"),
                     footer: HStack {
                         Spacer()
-                        Text("AICat \(appVersion)(\(buildNumber))")
+                        Text("AIChatty \(appVersion)(\(buildNumber))")
                             .font(.manrope(size: 12, weight: .regular))
                             .padding(12)
                             .gesture(

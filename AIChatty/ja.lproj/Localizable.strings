@@ -1,9 +1,5 @@
 /* 
   Localizable.strings
-  AICat
-
-  Created by Lei Pan on 2023/4/19.
-  
 */
 
 "Edit Prompt" = "プロンプトを編集する";
@@ -15,7 +11,7 @@
 "Message content copied" = "メッセージの内容がコピーされました";
 "Say something" = "何か言ってください";
 "Say something or enter 'space'" = "何か言ってくださいまたは 'space' を入力してください";
-"AICat Premium" = "AICatプレミアム";
+"AIChatty Premium" = "AIChattyプレミアム";
 "CONVERSATIONS" = "会話";
 "New Chat" = "新しいチャット";
 "Delete" = "削除する";
@@ -63,7 +59,7 @@
 "Auto renewal monthly, cancel at anytime" = "毎月自動更新、いつでもキャンセル可能";
 "Privacy Policy" = "プライバシーポリシー";
 "Terms of Use" = "利用規約";
-"You get AICat Premium Now!" = "今すぐAICatプレミアムを手に入れよう！";
+"You get AIChatty Premium Now!" = "今すぐAIChattyatプレミアムを手に入れよう！";
 "Purchase failed!" = "購入に失敗しました！";
 "You are not premium user!" = "あなたはプレミアムユーザーではありません！";
 "Context Messages" = "コンテキストメッセージ";

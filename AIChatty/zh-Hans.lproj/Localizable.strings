@@ -1,12 +1,9 @@
 /* 
   Localizable.strings
-  AICat
-
-  Created by Lei Pan on 2023/4/19.
-  
+  AIChatty
 */
 
-"Edit Prompt" = "编辑提示语";
+"Edit Prompt" = "编辑角色";
 "Edit Model" = "编辑模型";
 "Clean Messages" = "清空消息";
 "Are you sure to clean all messages?" = "确定要清空所有消息吗？";
@@ -14,17 +11,17 @@
 "Cancel" = "取消";
 "Message content copied" = "消息内容已复制";
 "Say something" = "说点什么";
-"Say something or enter 'space'" = "说点什么或者输入 'space'";
-"AICat Premium" = "AICat高级版";
-"CONVERSATIONS" = "会话";
-"New Chat" = "新建会话";
+"Say something or enter 'space'" = "开始对话或者输入'空格'选择角色";
+"AIChatty Premium" = "AIChatty高级版";
+"CONVERSATIONS" = "角色";
+"New Chat" = "新建角色";
 "Delete" = "删除";
-"Clear Conversations" = "清空会话";
-"Are you sure to clear all conversations" = "确定要清空所有会话吗？";
+"Clear Conversations" = "清空角色";
+"Are you sure to clear all conversations" = "确定要清空所有角色吗？";
 "Updates & FAQ" = "更新和常见问题";
 "Settings" = "设置";
-"Edit Chat" = "编辑会话";
-"Chat Name" = "会话名称";
+"Edit Chat" = "编辑角色";
+"Chat Name" = "角色名称";
 "Prompt (the prompt content helps set the behavior of the assistant. e.g. 'You are Steve Jobs, the creator of Apple' )" = "提示语（提示语内容有助于设置助手的行为。例如：'你是苹果的创始人史蒂夫·乔布斯'）";
 "Save" = "保存";
 "Add OpenAI API Key" = "添加 OpenAI API Key";
@@ -63,7 +60,7 @@
 "Auto renewal monthly, cancel at anytime" = "每月自动续订，随时取消";
 "Privacy Policy" = "隐私政策";
 "Terms of Use" = "使用条款";
-"You get AICat Premium Now!" = "您现在获得了 AICat 高级版！";
+"You get AIChatty Premium Now!" = "您现在获得了 AIChatty 高级版！";
 "Purchase failed!" = "购买失败！";
 "You are not premium user!" = "您不是高级版用户！";
 "Context Messages" = "上下文消息";

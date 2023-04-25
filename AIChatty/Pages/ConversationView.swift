@@ -1,8 +1,6 @@
 //
 //  ConversationView.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/3/19.
+//  AIChatty
 //
 
 import SwiftUI
@@ -63,7 +61,7 @@ struct ConversationView: View {
                     }.buttonStyle(.borderless)
                     Spacer()
                     VStack(spacing: 0) {
-                        Text(conversation.title)
+                        Text(conversation.isMain ? "ChatGPT" : conversation.title)
                             .font(.manrope(size: 16, weight: .heavy))
                             .lineLimit(1)
                         if !promptText.isEmpty {

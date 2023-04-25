@@ -1,8 +1,6 @@
 //
 //  SystemUtil.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/4/6.
+//  AIChatty
 //
 
 import Foundation
@@ -39,7 +37,6 @@ enum SystemUtil {
             windowScene.windows.first?.rootViewController?.present(activityViewController, animated: true, completion: nil)
         }
         #elseif os(macOS)
-        //TODO: show NSSharingServicePicker
         #endif
     }
 }

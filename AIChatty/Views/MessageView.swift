@@ -1,8 +1,6 @@
 //
 //  MessageView.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/3/21.
+//  AIChatty
 //
 
 import SwiftUI
@@ -69,11 +67,6 @@ struct MineMessageView: View {
                             .frame(width: 20, height: 20)
                     }
                     .buttonStyle(.borderless)
-//                    Button(action: { onShare?() }) {
-//                        Image(systemName: "arrowshape.turn.up.right.circle.fill")
-//                            .resizable()
-//                            .frame(width: 20, height: 20)
-//                    }
                 }
                 .padding(.horizontal, 30)
                 .tint(.primaryColor.opacity(0.6))
@@ -348,4 +341,5 @@ struct MessageView_Previews: PreviewProvider {
 
     }
 }
+
 

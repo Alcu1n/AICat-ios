@@ -1,8 +1,6 @@
 //
 //  SKProduct+Extension.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/4/15.
+//  AIChatty
 //
 
 import StoreKit

@@ -1,8 +1,6 @@
 //
 //  ParamsEditView.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/4/7.
+//  AIChatty
 //
 
 import SwiftUI

@@ -1,8 +1,6 @@
 //
 //  CatApi.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/3/19.
+//  AIChatty
 //
 
 import Foundation

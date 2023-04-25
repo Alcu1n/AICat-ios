@@ -1,9 +1,5 @@
 /* 
-  Localizable.strings
-  AICat
-
-  Created by Lei Pan on 2023/4/19.
-  
+  Localizable.strings  
 */
 
 "Edit Prompt" = "編輯提示語";
@@ -15,7 +11,7 @@
 "Message content copied" = "消息內容已複製";
 "Say something" = "說點什麼";
 "Say something or enter 'space'" = "說點什麼或者輸入 'space'";
-"AICat Premium" = "AICat高級版";
+"AIChatty Premium" = "AIChatty高級版";
 "CONVERSATIONS" = "會話";
 "New Chat" = "新建會話";
 "Delete" = "刪除";
@@ -63,7 +59,7 @@
 "Auto renewal monthly, cancel at anytime" = "每月自動續訂，隨時取消";
 "Privacy Policy" = "隱私政策";
 "Terms of Use" = "使用條款";
-"You get AICat Premium Now!" = "您現在獲得了 AICat 高級版！";
+"You get AIChatty Premium Now!" = "您現在獲得了 AIChatty 高級版！";
 "Purchase failed!" = "購買失敗！";
 "You are not premium user!" = "您不是高級用戶！";
 "Context Messages" = "上下文消息";

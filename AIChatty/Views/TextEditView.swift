@@ -1,8 +1,5 @@
 //
 //  TextEditView.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/4/8.
 //
 
 import SwiftUI

@@ -1,8 +1,6 @@
 //
 //  ShareMessagesImageOverlay.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/4/16.
+//  AIChatty
 //
 
 import SwiftUI

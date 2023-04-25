@@ -1,7 +1,6 @@
 //
 //  ConversationListView.swift
-//  AICat
-//  Created by Lei Pan on 2023/3/20.
+//  AIChatty
 //
 
 import SwiftUI
@@ -18,15 +17,15 @@ struct ConversationListView: View {
 
     var premiumText: String {
         if appStateVM.isPremium {
-            return "AICat Premium"
+            return "AIChatty Premium"
         } else {
-            return "AICat Premium(\(appStateVM.sentMessageCount)/\(appStateVM.freeMessageCount))"
+            return "AIChatty Premium(\(appStateVM.sentMessageCount)/\(appStateVM.freeMessageCount))"
         }
     }
 
     var body: some View {
         VStack(spacing: 0) {
-            Image(systemName: "timelapse")
+            Image(systemName: "brain.head.profile")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 56, height: 56)
@@ -57,15 +56,22 @@ struct ConversationListView: View {
                     .padding(.horizontal, 8)
                     .tint(.blackText.opacity(0.5))
                     ForEach(conversations) { conversation in
+                        let isSelected = (conversation == selectedChat)
+                        let buttonTintColor = isSelected ? Color.primaryColor : Color.primaryColor.opacity(0.7)
+                        
                         Button(action: { onChatChanged(conversation) }) {
+                            let conversationImage = conversation.isMain ? "command" : "bubble.left"
+                            let conversationTextFontWeight = isSelected ? Font.Weight.semibold : Font.Weight.medium
+                            let conversationTextColor = isSelected ? Color.blackText : Color.blackText.opacity(0.7)
+                            
                             HStack {
-                                Image(systemName: conversation.isMain ? "command" : "bubble.left" )
+                                Image(systemName: conversationImage)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 20)
-                                Text(conversation.title)
+                                Text(conversation.isMain ? "ChatGPT" : conversation.title)
                                     .lineLimit(1)
-                                    .font(.manrope(size: 16, weight: conversation == selectedChat ? .semibold : .medium))
-                                    .foregroundColor(conversation == selectedChat ? .blackText : .blackText.opacity(0.7))
+                                    .font(.manrope(size: 16, weight: conversationTextFontWeight))
+                                    .foregroundColor(conversationTextColor)
                                 Spacer()
                                 if selectedChat?.id == conversation.id {
                                     Circle()
@@ -82,7 +88,7 @@ struct ConversationListView: View {
                             .padding(.horizontal, 12)
                         }
                         .buttonStyle(.borderless)
-                        .tint(conversation == selectedChat ? .primaryColor : .primaryColor.opacity(0.7))
+                        .tint(buttonTintColor)
                         .contextMenu {
                             if !conversation.isMain {
                                 Button(role: .destructive, action: { deleteConversation(conversation) }) {
@@ -91,10 +97,10 @@ struct ConversationListView: View {
                             }
                         }
                         .padding(.horizontal, 8)
-
                     }
                 }
             }
+            
             RoundedRectangle(cornerRadius: 0.5)
                 .frame(height: 1)
                 .foregroundColor(Color.gray.opacity(0.1))

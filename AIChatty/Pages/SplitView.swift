@@ -1,8 +1,6 @@
 //
 //  SplitView.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/4/1.
+//  AIChatty
 //
 
 import SwiftUI

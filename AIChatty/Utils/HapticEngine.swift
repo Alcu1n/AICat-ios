@@ -1,8 +1,6 @@
 //
 //  HapticEngine.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/4/17.
+//  AIChatty
 //
 
 #if os(iOS)

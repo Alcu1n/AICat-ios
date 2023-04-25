@@ -1,9 +1,5 @@
 /* 
-  Localizable.strings
-  AICat
-
-  Created by Lei Pan on 2023/4/19.
-  
+  Localizable.strings 
 */
 "Edit Prompt" = "프롬프트 편집";
 "Edit Model" = "모델 편집";
@@ -14,7 +10,7 @@
 "Message content copied" = "메시지 내용이 복사되었습니다";
 "Say something" = "무엇이든 말해보세요";
 "Say something or enter 'space'" = "무언가를 말하거나 '스페이스'를 입력하세요";
-"AICat Premium" = "AICat 프리미엄";
+"AIChatty Premium" = "AIChatty 프리미엄";
 "CONVERSATIONS" = "대화";
 "New Chat" = "새 대화";
 "Delete" = "삭제";
@@ -61,7 +57,7 @@
 "Auto renewal monthly, cancel at anytime" = "매월 자동 갱신, 언제든지 취소 가능";
 "Privacy Policy" = "개인 정보 보호 정책";
 "Terms of Use" = "이용 약관";
-"You get AICat Premium Now!" = "지금 AICat 프리미엄을 받으세요!";
+"You get AIChatty Premium Now!" = "지금 AIChatty 프리미엄을 받으세요!";
 "Purchase failed!" = "구매 실패!";
 "You are not premium user!" = "프리미엄 사용자가 아닙니다!";
 "Context Messages" = "컨텍스트 메시지";

@@ -1,8 +1,6 @@
 //
-//  AICatApp.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/3/19.
+//  AIChattyApp.swift
+//  AIChatty
 //
 
 import SwiftUI

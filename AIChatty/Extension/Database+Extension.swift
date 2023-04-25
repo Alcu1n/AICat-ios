@@ -1,8 +1,6 @@
 //
 //  Database+Extension.swift
-//  AICat
-//
-//  Created by Lei Pan on 2023/3/20.
+//  AIChatty
 //
 
 import Blackbird
